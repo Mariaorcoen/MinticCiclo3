@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+ 
+
+
+.avatar{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10pt solid blue;
+    flex-wrap: wrap;
+    margin-top: -15pt;
+    margin-left: -10pt;
+    width: 100pt;
+    height: 100pt;
+    /*width: 100pt;*/
+
+}
