@@ -46,28 +46,42 @@ h1{
    
 }
 
-label{
-    margin: 250px;
-    left: 210px;
-    font-weight: bold;
-    display:block;
+.usuario{
+    width: 10%;
+    left: 34%;
+    top: 23%;
+    font-weight: normal;
+    display:inline;
+    background-color:none;
+    flex-direction:row;
+    text-align:start;
+    position: relative  ;
+    color: white;
+    font-size: 20px;
+}
+.contrasena{
+    width: 10%;
+    left: 12%;
+    top: 30%;
+    font-weight: normal;
+    display:inline;
     background-color:none;
     flex-direction:row;
     align-items: normal;
     text-align:start;
-    position: absolute;
+    position: relative;
     color: white;
-    font-size: 50px;
+    font-size: 20px;
+
+    
 }
 
 .inputs{
-    background-color: blue;
+   
     margin-top: 100px;
-    border: 10pt,red;
-    justify-content: space-evenly;
-    width: 200px;
-    position:relative;
-    left: 550px;
+    width: 15%;
+    position:sticky;
+    left: 30%;
   
 
 }
@@ -80,11 +94,12 @@ button{
     height: 40px;
     background: #b80f22;
     color:#fff;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 10px;
-    left: 234px;
+    left: 0%;
     position: relative;
-    width: 5em;
+    width: 5%;
+    top: 40%;
     
     
 }
